@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <!-- ICON -->
+    <link rel="icon" href="public/icon/calculator.png">
+    <!-- CSS -->
+    <link rel="stylesheet" href="source/css/style.css">
+    <!-- JS -->
+    <script src="source/js/script.js" defer></script>
+</head>
+
+<body>
+    <section id="box-calculator">
+        <div class="container">
+            <div class="title">
+                <h1>Simple Calculator</h1>
+            </div>
+            <div class="calculator">
+                <div class="result-calc number">
+                    <input type="number" name="result" id="result-number" disabled>
+                </div>
+                <div class="number1 number">
+                    <label for="number1">Number 1</label>
+                    <input type="number" name="number1" id="number1">
+                </div>
+                <div class="operation number">
+                    <label for="operations">Operation</label>
+                    <select name="operations" id="operations">
+                        <option value="+">+</option>
+                        <option value="-">-</option>
+                        <option value="*">*</option>
+                        <option value="/">/</option>
+                        <option value="%">%</option>
+                    </select>
+                </div>
+                <div class="number2 number">
+                    <label for="number2">Number 2</label>
+                    <input type="number" name="number2" id="number2">
+                </div>
+                <div class="btn">
+                    <button type="submit" id="button-calc">Calculate</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
