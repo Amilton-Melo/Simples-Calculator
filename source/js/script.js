@@ -10,7 +10,7 @@ btn.addEventListener("click", () =>{
         result.value = Number(number1.value) + Number(number2.value);
     }
     else if(operation.value === "-"){
-        console.log("diminuir");
+        console.log("subtração");
         result.value = Number(number1.value) - Number(number2.value);
     }
     else if(operation.value === "*"){
